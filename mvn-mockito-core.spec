@@ -4,7 +4,7 @@
 #
 Name     : mvn-mockito-core
 Version  : 2.21.0
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/org/mockito/mockito-core/2.21.0/mockito-core-2.21.0.jar
 Source0  : https://repo1.maven.org/maven2/org/mockito/mockito-core/2.21.0/mockito-core-2.21.0.jar
 Source1  : https://repo1.maven.org/maven2/org/mockito/mockito-core/2.21.0/mockito-core-2.21.0.pom
