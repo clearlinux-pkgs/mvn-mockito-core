@@ -4,12 +4,14 @@
 #
 Name     : mvn-mockito-core
 Version  : 2.21.0
-Release  : 3
+Release  : 4
 URL      : https://repo1.maven.org/maven2/org/mockito/mockito-core/2.21.0/mockito-core-2.21.0.jar
 Source0  : https://repo1.maven.org/maven2/org/mockito/mockito-core/2.21.0/mockito-core-2.21.0.jar
 Source1  : https://repo1.maven.org/maven2/org/mockito/mockito-core/2.21.0/mockito-core-2.21.0.pom
 Source2  : https://repo1.maven.org/maven2/org/mockito/mockito-core/2.25.1/mockito-core-2.25.1.jar
 Source3  : https://repo1.maven.org/maven2/org/mockito/mockito-core/2.25.1/mockito-core-2.25.1.pom
+Source4  : https://repo1.maven.org/maven2/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar
+Source5  : https://repo1.maven.org/maven2/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MIT
@@ -44,6 +46,12 @@ cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/mockito/mockito-cor
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mockito/mockito-core/2.25.1
 cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/mockito/mockito-core/2.25.1/mockito-core-2.25.1.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mockito/mockito-core/2.27.0
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/mockito/mockito-core/2.27.0
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.pom
+
 
 %files
 %defattr(-,root,root,-)
@@ -54,3 +62,5 @@ cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/mockito/mockito-cor
 /usr/share/java/.m2/repository/org/mockito/mockito-core/2.21.0/mockito-core-2.21.0.pom
 /usr/share/java/.m2/repository/org/mockito/mockito-core/2.25.1/mockito-core-2.25.1.jar
 /usr/share/java/.m2/repository/org/mockito/mockito-core/2.25.1/mockito-core-2.25.1.pom
+/usr/share/java/.m2/repository/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar
+/usr/share/java/.m2/repository/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.pom
